@@ -1,0 +1,263 @@
+/*---------------------------------*/
+/*---------CSS for desktop---------*/
+/*---------------------------------*/
+
+
+body {
+	margin:0 auto;
+	width: 100%;
+	height: auto;
+	min-height:100% !important;
+	text-align: center;
+	background-color: #ED7E85; /* For browsers that do not support gradients */
+	background-image: linear-gradient(#ED7E85, #5EDABF); /* Standard syntax (must be last) */
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+	font-size: 20px;
+}
+
+div.header {
+  position: fixed;
+  top: 0;
+	height: 20px;
+	width: 100%;
+	background-color: #000080;
+	color: #fff;
+	margin:0;
+}
+
+p.header{
+	margin: 2px 0 0 2px;
+	float: left;
+	font-family: 'VT323', monospace;
+	font-size: 15px;
+}
+
+.header-button{
+  margin:2px;
+  float:right;
+  width:18px;
+  height:17.5px;
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:0;
+  font-size:15px;
+  font-family:'VT323', monospace;
+  text-align:center;
+
+}
+
+
+h1 {
+  margin-top: 50px;
+	text-align: center;
+	font-family: 'VT323', monospace;
+	font-size: 10px;
+	text-shadow: 1px 1px 2px #000000;
+  /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+}
+
+ .title2 {
+  font-size: 3em;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/*.images {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	max-width: 500px;
+	height: auto;
+}*/
+
+h2 {
+	text-align: center;
+	font-family: 'Turret Road', cursive;
+	font-size: 2vw;
+	margin-top:  1em;
+  margin-bottom: 0;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Turret Road', cursive;
+  font-size: 1.5vw;
+  color: #6e6e6e;
+  margin: 0;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.2vw;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: center;
+}
+
+iframe {
+  width: 60vw;
+  height: 35vw;
+}
+
+
+.content-button {
+	margin:2px 2px 2px 0;
+    width:50px;
+    height:35px;
+    background:#C0C0C0;
+    border-width:1px;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    padding:0;
+    text-align:center;
+    font-family:'VT323', monospace;
+    font-size: 20px;
+}
+
+
+.wrapper {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+a:link{
+	color: #9212db;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #9212db;
+	text-decoration: none;
+}
+
+
+
+
+/*----------------------------------*/
+/*----------CSS for mobile----------*/
+/*----------------------------------*/
+@media ( max-width: 480px ){
+
+ body {
+ 	border-style: solid solid none solid;
+	border-width: 1px;
+	border-color: #FFFFFF #808080 #808080 #FFFFFF;
+	margin:0;
+	width: 100%;
+	min-width: 200px;
+	height: 800px;
+	font-size: 15px;
+  }
+
+  div.header {
+	height: 30px;
+	width: 100%;
+	background-color: #000080;
+	color: #fff;
+  }
+
+  p.header{
+	margin: 2px 0 0 1px;
+	float: left;
+	font-family: 'VT323', monospace;
+	font-size: 20px;
+  }
+
+  .header-button{
+    float:right;
+    width:26px;
+    height:25px;
+    background:#C0C0C0;
+    border-width:1px;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    padding:0;
+    font-size:20px;
+    font-family:'VT323', monospace;
+    text-align:center;
+  }
+
+
+  h2 {
+	font-size: 1.5em;
+	margin:  2% 5% 0% 5%;
+  }
+
+  p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: right;
+  }
+
+  iframe {
+  width: 90vw;
+  height: 60vw;
+}
+
+  .content-button{
+    margin:2% 2% 2% 0;
+    width:50px;
+    height:35px;
+    background:#C0C0C0;
+    border-width:1px;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    padding:0;
+    font-size:20px;
+    font-family:'VT323', monospace;
+    text-align:center;
+  }
+}
+
